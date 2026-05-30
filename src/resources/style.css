@@ -1,0 +1,55 @@
+.menu-button {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-padding: 20;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-content-display: TOP; /* זה הקסם - התמונה תהיה מעל הטקסט */
+    -fx-graphic-text-gap: 10;   /* רווח בין התמונה לטקסט */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5);
+}
+
+.btn-add-car {
+    -fx-graphic: url("icons/transport.png"); /* וודא שהנתיב נכון */
+}
+
+.btn-add-service {
+    -fx-graphic: url("icons/service.png");
+}
+
+.btn-add-chart {
+    -fx-graphic: url("icons/chart.png");
+}
+
+.btn-add-notification {
+    -fx-graphic: url("icons/notification.png");
+}
+.btn-history {
+    -fx-graphic: url("icons/history.png");
+}
+.btn-inventory {
+    -fx-graphic: url("icons/inventory.png");
+}
+.icon-home {
+    -fx-graphic: url("icons/home.png");
+}
+.icon-garage {
+    -fx-graphic: url("icons/garage.png");
+}
+.icon-preset {
+    -fx-graphic: url("icons/preset.png");
+}
+
+.menu-button:hover {
+    -fx-background-color: #f0f0f0;
+    -fx-cursor: hand;
+}
+
+.main-logo {
+    -fx-background-image: url("icons/logo.jpg");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+}

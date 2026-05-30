@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/AddPresetsController.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/EditGarageController.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/ServiceDetailsController.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/ServiceHistoryController.java" dialect="GenericSQL" />
+    <file url="PROJECT" dialect="PostgreSQL" />
+  </component>
+</project>
